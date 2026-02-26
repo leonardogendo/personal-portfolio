@@ -154,7 +154,7 @@ const Certificates = () => {
                   </div>
                 </div>
                 
-               <button className="view-credential">View Credential</button>
+               <button onClick={() => window.open(cert.link, '_blank')} className="view-credential">View Credential</button>
               </div>
             </div>
           ))}
