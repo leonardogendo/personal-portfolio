@@ -1,17 +1,17 @@
 import { FaReact, FaBootstrap, FaNodeJs } from 'react-icons/fa';
-import { SiAngular, SiExpress, SiDjango, SiFastapi, SiTailwindcss } from 'react-icons/si';
+import { SiAngular, SiExpress, SiDjango, SiFastapi, SiTailwindcss, SiNestjs, SiSpring } from 'react-icons/si';
 
 
 const Frameworks = () => {
     const frameworks = [
-        { name: 'React', icon: <FaReact /> },
-        { name: 'Angular', icon: <SiAngular /> },
+        { name: 'Spring Boot', icon: <SiSpring /> },
         { name: 'Node.js', icon: <FaNodeJs /> },
         { name: 'Express.js', icon: <SiExpress /> },
-        { name: 'Django (DRF)', icon: <SiDjango /> },
-        { name: 'FastAPI', icon: <SiFastapi /> },
+        { name: 'NestJS', icon: <SiNestjs /> },
+        { name: 'React', icon: <FaReact /> },
+        { name: 'Angular', icon: <SiAngular /> },
         { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
-        { name: 'Bootstrap5', icon: <FaBootstrap /> }
+        { name: 'Bootstrap', icon: <FaBootstrap /> }
     ];
 
     return (
@@ -24,7 +24,7 @@ const Frameworks = () => {
             <p>Tools that streamline application development and styling.</p>
 
             <p className='cards-hls'>
-                <span>React</span> <span>Angular</span> <span>Node.js</span> <span>Express.js</span> <span>Django (DRF)</span> <span>FastAPI</span> <span>Tailwind CSS</span> <span>Bootstrap</span>
+                <span>Spring Boot</span> <span>Node.js</span> <span>Express.js</span> <span>NestJS</span> <span>React</span> <span>Angular</span> <span>Tailwind CSS</span> <span>Bootstrap</span>
             </p>
 
             <hr className='component-divider' />

@@ -5,11 +5,11 @@ import { SiMysql } from 'react-icons/si';
 const SLanguages = () => {
 
     const languages = [
+        { name: 'Java', icon: <FaJava /> },
         { name: 'Python', icon: <FaPython /> },
         { name: 'JavaScript (ES6+)', icon: <FaJs /> },
-        { name: 'Java', icon: <FaJava /> },
-        { name: 'HTML5', icon: <FaHtml5 /> },
-        { name: 'CSS3', icon: <FaCss3Alt /> },
+        { name: 'HTML', icon: <FaHtml5 /> },
+        { name: 'CSS', icon: <FaCss3Alt /> },
         { name: 'SQL', icon: <SiMysql /> }
     ]
 
@@ -22,7 +22,7 @@ const SLanguages = () => {
             
             <p>Core programming and markup languages</p>
 
-            <p className='cards-hls'><span>Python</span>  <span>JavaScript</span>   <span>Java</span>   <span>HTML5</span>   <span>CSS3</span>   <span>SQL</span></p>
+            <p className='cards-hls'><span>Java</span> <span>Python</span>  <span>JavaScript</span>  <span>HTML</span>   <span>CSS</span>   <span>SQL</span></p>
 
             <hr className='component-divider' />
 

@@ -6,7 +6,6 @@ import './styles.css';
 import Cers from "./featured-projects/Cers";
 import AfricanaEcommerce from "./featured-projects/AfricanaEcommerce";
 import EhAcademy from "./featured-projects/EhAcademy";
-import MetaPredict from "./featured-projects/MetaPredict";
 import PaxfulClone from "./featured-projects/PaxfulClone";
 import TechConsultant from "./featured-projects/TechConsultant";
 
@@ -26,11 +25,6 @@ const featuredProjects = [
     icon: <FaGraduationCap />,
     title: 'EH Academy Platform',
     intro: 'Ethical hacking learning acad',
-  },
-  {
-    icon: <FaChartLine />,
-    title: 'metaPredict',
-    intro: 'Data-driven match predictions',
   },
   {
     icon: <FaShoppingCart />,
@@ -96,7 +90,6 @@ const projectComponents = {
   'Campus Emergency Response System': <Cers />,
   'Africana Ecommerce Platform': <AfricanaEcommerce />,
   'EH Academy Platform': <EhAcademy />,
-  'metaPredict': <MetaPredict />,
   'Paxful Clone': <PaxfulClone />,
   'Tech Consultant': <TechConsultant />,
 };

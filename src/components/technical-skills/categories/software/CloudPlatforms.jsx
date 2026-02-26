@@ -3,12 +3,12 @@ import { SiGithubpages, SiVercel, SiNetlify, SiRender, SiRailway } from 'react-i
 
 const CloudPlatforms = () => {
     const cloudPlatforms = [
+        { name: 'AWS', icon: <FaAws /> },
         { name: 'GitHub Pages', icon: <SiGithubpages /> },
         { name: 'Vercel', icon: <SiVercel /> },
         { name: 'Netlify', icon: <SiNetlify /> },
         { name: 'Render', icon: <SiRender /> },
         { name: 'Railway', icon: <SiRailway /> },
-        { name: 'AWS', icon: <FaAws /> }
     ];
 
     return (
@@ -21,7 +21,7 @@ const CloudPlatforms = () => {
             <p>Platforms for deploying full-stack apps and exploring modern cloud services.</p>
 
             <p className='cards-hls'>
-                <span>GitHub Pages</span> <span>Vercel</span> <span>Netlify</span> <span>Render</span> <span>Railway</span> <span>AWS</span>
+                <span>AWS</span> <span>GitHub Pages</span> <span>Vercel</span> <span>Netlify</span> <span>Render</span> <span>Railway</span>
             </p>
 
             <hr className='component-divider' />

@@ -7,7 +7,6 @@ const TestingTools = () => {
         { name: 'React Testing Library', icon: <SiTestinglibrary /> },
         { name: 'Cypress', icon: <SiCypress /> },
         { name: 'Pytest', icon: <SiPytest /> },
-        { name: 'Django Test Framework', icon: <FaPython /> },
         { name: 'Unittest', icon: <FaPython /> },
 
     ];
@@ -22,7 +21,7 @@ const TestingTools = () => {
             <p>Tools I use to write, run, and automate tests for full-stack applications.</p>
 
             <p className='cards-hls'>
-                <span>Jest</span> <span>React Testing Library</span> <span>Cypress</span> <span>Pytest</span> <span>Django Test Framework</span> <span>Unittest</span> <span>Playwright</span>
+                <span>Jest</span> <span>React Testing Library</span> <span>Cypress</span> <span>Pytest</span> <span>Unittest</span>
             </p>
 
             <hr className='component-divider' />
