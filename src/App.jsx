@@ -5,7 +5,7 @@ import './styles/styles.css';
 
 import Navigation from "./components/hero/Navigation";
 import AboutMe from "./components/about/AboutMe";
-import TechnicalSkills from './components/technical-skills/Technical Skills';
+import TechnicalSkills from './components/technical-skills/TechnicalSkills';
 import Experiences from './components/experiences/Experiences';
 import MyProjects from './components/projects/MyProjects';
 import MyCertificates from "./components/certificates/MyCertificates";
@@ -30,9 +30,17 @@ function App() {
 
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
-                    entry.target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start',
+                    // Calculate navbar offset for fixed positioning
+                    const navbar = document.querySelector('.nav-bar.scrolled');
+                    const navbarHeight = navbar ? navbar.offsetHeight + 10 : 90; // 80px fallback + 20px buffer
+                    
+                    // Get the element's position and scroll with navbar offset
+                    const elementPosition = entry.target.getBoundingClientRect().top + window.scrollY;
+                    const offsetPosition = elementPosition - navbarHeight;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
                     });
                 }
             });
@@ -48,8 +56,31 @@ function App() {
     useEffect(() => {
         const handleHashChange = () => {
             setRecentlyNavigated(true);
+            
+            // Handle smooth scrolling to hash with navbar offset
+            const hash = window.location.hash;
+            if (hash) {
+                const targetElement = document.querySelector(hash);
+                if (targetElement) {
+                    // Calculate navbar offset for fixed positioning
+                    const navbar = document.querySelector('.nav-bar.scrolled');
+                    const navbarHeight = navbar ? navbar.offsetHeight + 10 : 90; // 80px fallback + 20px buffer
+                    
+                    // Get the element's position and scroll with navbar offset
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+                    const offsetPosition = elementPosition - navbarHeight;
+                    
+                    setTimeout(() => {
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }, 100); // Small delay to ensure DOM is ready
+                }
+            }
+            
             // Re-enable after short delay
-            setTimeout(() => setRecentlyNavigated(false), 1000); // 1 second should be enough
+            setTimeout(() => setRecentlyNavigated(false), 1000);
         };
 
         window.addEventListener('hashchange', handleHashChange);

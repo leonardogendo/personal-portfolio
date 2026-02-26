@@ -2,7 +2,9 @@
 
 #experiences {
   height: 100vh;
+  margin-top: 3rem;
   margin-bottom: 3rem;
+  padding-top: 4rem;
 }
 .experiences-hls {
   display: flex;
@@ -209,6 +211,7 @@
 @media (max-width: 1024px) {
   #experiences {
     height: auto;
+    margin-top: 2rem;
     padding-bottom: 3rem;
     margin-bottom: 1.5rem;
   }
@@ -290,6 +293,9 @@
 
 /* Mobile Devices Only: 640px */
 @media (max-width: 640px) {
+  #experiences {
+    margin-top: 1.5rem;
+  }
   .previous-experience-wrapper {
     height: 80vh;
   }
