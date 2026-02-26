@@ -12,9 +12,10 @@ import backgroundImage from '../../assets/backgrounds/box-rule3-bg.jpg';
 function Navigation(){
     const texts = [
         "I Am Leonard Ogendo",
-        'I Am a Secure Software Engineer',
-        'I Am a Cybersecurity Specialist',
-        'I Am a Penetration Tester'
+        'I Am a Secure Software & Cybersecurity Engineer',
+        'I Design & Build Secure Systems',
+        'I Test & Validate Vulnerabilities',
+        'I Improve Security Monitoring & Detection'
     ];
 
     // CURRENT ROLE
