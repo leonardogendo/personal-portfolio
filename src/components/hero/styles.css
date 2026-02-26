@@ -20,7 +20,7 @@
 #nav-brand {
   color: #777;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   background: linear-gradient(to right, #fd4312, #f06595, #845ef7);
    -webkit-background-clip: text;
   background-clip: text;
@@ -335,6 +335,7 @@ a:visited {
 
 .name-box span {
   color: #ccc;
+  font-size: 0.95rem;
 }
 
 /* Mobile Menu */

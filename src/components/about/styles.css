@@ -76,6 +76,17 @@
   padding: 0.4rem;
   border-radius: 5px;
   border: 1px solid #504478;
+  width: 90%;
+}
+
+.pro-desc ul {
+    list-style-type: none;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.pro-desc ul li {
+    margin-bottom: 0.4rem;
 }
 
 #underline {

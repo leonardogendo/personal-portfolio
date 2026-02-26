@@ -216,12 +216,14 @@ function Navigation(){
                     { !isMobile && (
                         <p className="hero-tech">
                             <FaCode className="code-icon" /> Tech Stack:
-                            <span id="f-span">Python</span>
-                            <span>Java</span>
+                            <span id="f-span">Java</span>
+                            <span>Python</span>
                             <span>JavaScript</span>
-                            <span>React</span>
+                            <span>Spring Boot</span>
                             <span>Node.js</span>
-                            <span>+7 more</span>
+                            <span>React</span>
+                            <span>Angular</span>
+                            <span>+5 more</span>
                         </p>
                     )}
                 </div>
@@ -245,7 +247,7 @@ function Navigation(){
                             </div>
                             <div className="hv-block">
                                 <FaShieldAlt className="exp-ico" size={18} />
-                                <span>Web & App Security</span>
+                                <span>Web & API Security</span>
                             </div>
                             <div className="hv-block">
                                 <FaUserShield className="exp-ico" size={18} />
@@ -257,7 +259,7 @@ function Navigation(){
                             </div>
                             <div className="hv-block">
                                 <FaTerminal className="exp-ico" size={18} />
-                                <span>Blue Teaming</span>
+                                <span>DevSecOps</span>
                             </div>
                         </div>
                     ) : (
@@ -269,7 +271,7 @@ function Navigation(){
                                 </div>
                                 <div className="hv-block">
                                     <FaUserShield className="exp-ico" size={18} />
-                                    <span>Penetration Testing</span>
+                                    <span>Web & API Security</span>
                                 </div>
                                 <div className="hv-block">
                                     <FaTools className="exp-ico" size={18} />
@@ -278,12 +280,11 @@ function Navigation(){
                             
                             </div>
                             <p className="hero-tech">
+                                <span>Java</span>
                                 <span>Python</span>
                                 <span>JavaScript</span>
-                                <span>React</span>
-                                <span>Django</span>
-                                <span>Node.js</span>
-        
+                                <span>Spring Boot</span>
+                                <span>Node.js</span>       
                             </p>
                         </>
                     )

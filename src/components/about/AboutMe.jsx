@@ -6,6 +6,24 @@ import './styles.css';
 
 const AboutMe = () => {
 
+    const miniRole = 'Engineer';
+
+    const aboutMe = {
+        // PartA: min 20 words - max 22 words
+        partA: 
+            `I build and secure modern applications, APIs, and delivery pipelines to help
+            organizations protect their systems from real-world cyber threats.`
+        ,
+        partB: 
+            `With practical experience in Secure Software Engineering, DevSecOps Integration, and automated
+            security testing, I:`
+        ,
+        bulletOne: `Design secure systems from development through to deployment`,
+        bulletTwo: `Embed security into CI/CD pipelines with DevSecOps automation`,
+        bulletThree: `Validate vulnerabilties(Web & API) through both manual and automated testing`,
+        bulletFour: `Improve monitoring and detection using SIEM insights and security workflows`
+    };
+
     const [isMobile, setIsMobile] = useState(() => window.matchMedia("(max-width: 768px)").matches);
 
     useEffect(() => {
@@ -34,21 +52,26 @@ const AboutMe = () => {
                     <TopPerformerCard />
                     <SecureCodeCard />
                     <div className="photo-container">
-                        <span className="work-st">Freelancer</span>
+                        <span className="work-st">{ miniRole }</span>
                         <img src={profilePhoto} alt="profile" />
                     </div>
                     <div className="readme">
+                        <h2>Hi, I'm</h2>
                         <div id="underline"></div>
                         <p className="pro-name">Leonard Ogendo</p>
                         <p className="pro-title">Secure Software & Cybersecurity Engineer</p>
 
-                        <p className="pro-desc">
-                            I'm an early-career Secure Software Engineer and Cybersecurity Specialist, focused on Secure SDLC, AI-Augmented Cyber Defense/Offense, 
-                            Application Security and DevSecOps. <br /> <br />
-                            My aim is to support organizations in both public and private sectors to build secure systems (web & mobile apps) , ensure their security 
-                            and reliability, and mitigate cyber risks to protect data, digital assets, and critical infrastructure in today's constantly evolving cyber 
-                            threat landscape.
-                        </p>
+                        <div className="pro-desc">
+                            { aboutMe.partA } <br /> <br />
+                            { aboutMe.partB }
+                        
+                            <ul>
+                                <li><span style={{ color: '#bb5336ff' }}>✪</span> {aboutMe.bulletOne}</li>
+                                <li><span style={{ color: '#bb5336ff' }}>✪</span> {aboutMe.bulletTwo}</li>
+                                <li><span style={{ color: '#bb5336ff' }}>✪</span> {aboutMe.bulletThree}</li>
+                                <li><span style={{ color: '#bb5336ff' }}>✪</span> {aboutMe.bulletFour}</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
