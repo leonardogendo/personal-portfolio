@@ -2,6 +2,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import ImageSlider from "./ImageSlider";
 import { FaLinkedin, FaGithub, FaXTwitter } from "react-icons/fa6";
+import './styles.css';
 
 const Contact = () => {
   const form = useRef();

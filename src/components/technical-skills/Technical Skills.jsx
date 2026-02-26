@@ -2,6 +2,7 @@ import { useState } from "react";
 import Select from "react-select";
 import { FaCode, FaCubes, FaServer, FaCloud, FaDatabase, FaVial, FaWpforms, FaTerminal, FaLinux, FaBug, FaShieldAlt, FaLock } from "react-icons/fa";
 
+import './styles.css';
 import SLanguages from "./categories/software/Languages";
 import Frameworks from "./categories/software/Frameworks";
 import DevOps from "./categories/software/DevOpsTools";

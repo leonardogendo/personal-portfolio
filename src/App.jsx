@@ -3,14 +3,14 @@ import { useRef, useEffect, useState } from 'react';
 import './styles/App.css';
 import './styles/styles.css';
 
-import Navigation from "./components/Navigation";
-import AboutMe from "./components/AboutMe";
+import Navigation from "./components/hero/Navigation";
+import AboutMe from "./components/about/AboutMe";
 import TechnicalSkills from './components/technical-skills/Technical Skills';
 import Experiences from './components/experiences/Experiences';
 import MyProjects from './components/projects/MyProjects';
-import MyCertificates from "./components/MyCertificates";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import MyCertificates from "./components/certificates/MyCertificates";
+import Contact from "./components/footer-area/Contact";
+import Footer from "./components/footer-area/Footer";
 
 function App() {
     const [recentlyNavigated, setRecentlyNavigated] = useState(false);

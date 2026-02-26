@@ -1,9 +1,10 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import sliderOne from "../assets/certsxprojects/web_dev1.jpeg";
-import sliderTwo from "../assets/certsxprojects/code_sec2.jpeg";
-import sliderThree from "../assets/certsxprojects/sols_through_code.jpeg";
+import sliderOne from "../../assets/certsxprojects/web_dev1.jpeg";
+import sliderTwo from "../../assets/certsxprojects/code_sec2.jpeg";
+import sliderThree from "../../assets/certsxprojects/sols_through_code.jpeg";
+import './styles.css';
 
 const ImageSlider = () => {
   const settings = {

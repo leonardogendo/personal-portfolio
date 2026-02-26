@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import CurrentRole from "./categories/CurrentRole";
 import PreviousExperiences from "./categories/PreviousExperiences";
 import { FaStar } from "react-icons/fa";
+import './styles.css';
 
 
 const Experiences = () => {

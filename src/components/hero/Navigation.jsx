@@ -4,10 +4,10 @@ import { faHome, faUser, faFileAlt, faLaptopCode, faStar, faPhone, faProjectDiag
 import { FaCode, FaBars ,FaDotCircle, FaUserShield, FaTools, FaLaptopCode as FaSoftEng, FaShieldAlt, FaTerminal, FaTimes } from 'react-icons/fa';
 import { BsSend } from 'react-icons/bs';
 
-
+import './styles.css';
 import TypewriterEffect from "./TypewriterEffect";
-import backgroundVideo from "../assets/video/backgroundplay.mp4";
-import backgroundImage from '../assets/backgrounds/box-rule3-bg.jpg';
+import backgroundVideo from '../../assets/video/backgroundplay.mp4';
+import backgroundImage from '../../assets/backgrounds/box-rule3-bg.jpg';
 
 function Navigation(){
     const texts = [

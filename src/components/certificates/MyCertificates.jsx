@@ -1,17 +1,17 @@
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useState, useEffect, useRef } from 'react';
 
-import ecCouncilLogo from '../assets/certsxprojects/ec-council-logo.png';
-import ciscoLogo from '../assets/certsxprojects/cisco-logo.png';
-import freeCodeLogo from '../assets/certsxprojects/freecodecamp-logo.png';
+import './styles.css';
+import ecCouncilLogo from '../../assets/certsxprojects/ec-council-logo.png';
+import ciscoLogo from '../../assets/certsxprojects/cisco-logo.png';
+import freeCodeLogo from '../../assets/certsxprojects/freecodecamp-logo.png';
 
-import ecCouncilCB from '../assets/certsxprojects/csec-business.png';
-import freeCodeInfosec from '../assets/certsxprojects/fcc_infosec.png';
-import freeCodeBackend from '../assets/certsxprojects/freecodebackend_dev.png';
-import freeCodeFdl from '../assets/certsxprojects/freecodecamp-fdl.png';
-import netAcadP from '../assets/certsxprojects/participation-netacad.png';
-import ciscoEH from '../assets/certsxprojects/cisco-eh-acad.jpg';
-import freeCodeRWD from '../assets/certsxprojects/freecode-web-cert.png';
+import ecCouncilCB from '../../assets/certsxprojects/csec-business.png';
+import freeCodeInfosec from '../../assets/certsxprojects/fcc_infosec.png';
+import freeCodeBackend from '../../assets/certsxprojects/freecodebackend_dev.png';
+import freeCodeFdl from '../../assets/certsxprojects/freecodecamp-fdl.png';
+import ciscoEH from '../../assets/certsxprojects/cisco-eh-acad.jpg';
+import freeCodeRWD from '../../assets/certsxprojects/freecode-web-cert.png';
 
 const certData = [
   {

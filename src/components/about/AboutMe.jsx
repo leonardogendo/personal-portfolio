@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import profilePhoto from '../assets/portfolio-user.png';
-import TopPerformerCard from "../shared/components/TopPerformerCard";
-import SecureCodeCard from "../shared/components/SecureCodeCard";
+import profilePhoto from '../../assets/portfolio-user.png';
+import TopPerformerCard from "../../shared/components/TopPerformerCard";
+import SecureCodeCard from "../../shared/components/SecureCodeCard";
+import './styles.css';
 
 const AboutMe = () => {
 

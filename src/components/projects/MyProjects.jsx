@@ -2,6 +2,7 @@ import { useEffect,useState } from "react";
 import Select from "react-select";
 import { FaGithub, FaAmbulance, FaShoppingCart, FaGraduationCap, FaChartLine, FaTools } from "react-icons/fa";
 
+import './styles.css';
 import Cers from "./featured-projects/Cers";
 import AfricanaEcommerce from "./featured-projects/AfricanaEcommerce";
 import EhAcademy from "./featured-projects/EhAcademy";

@@ -1,4 +1,5 @@
 import { FaReact } from "react-icons/fa"
+import './styles.css';
 
 const Footer = () => {
     return (
