@@ -4,32 +4,14 @@ import { FaGithub, FaAmbulance, FaShoppingCart, FaGraduationCap, FaChartLine, Fa
 
 import './styles.css';
 import Cers from "./featured-projects/Cers";
-import AfricanaEcommerce from "./featured-projects/AfricanaEcommerce";
-import EhAcademy from "./featured-projects/EhAcademy";
-import PaxfulClone from "./featured-projects/PaxfulClone";
 import TechConsultant from "./featured-projects/TechConsultant";
 
 
 const featuredProjects = [
   {
     icon: <FaAmbulance />,
-    title: 'Campus Emergency Response System',
+    title: 'CERS',
     intro: 'Fast campus alerting sys',
-  },
-  {
-    icon: <FaShoppingCart />,
-    title: 'Africana Ecommerce Platform',
-    intro: 'Pan-African product store',
-  },
-  {
-    icon: <FaGraduationCap />,
-    title: 'EH Academy Platform',
-    intro: 'Ethical hacking learning acad',
-  },
-  {
-    icon: <FaShoppingCart />,
-    title: 'Paxful Clone',
-    intro: 'Social Engineering project',
   },
   {
     icon: <FaTools />,
@@ -87,15 +69,12 @@ const customStyles = {
 };
 
 const projectComponents = {
-  'Campus Emergency Response System': <Cers />,
-  'Africana Ecommerce Platform': <AfricanaEcommerce />,
-  'EH Academy Platform': <EhAcademy />,
-  'Paxful Clone': <PaxfulClone />,
+  'CERS': <Cers />,
   'Tech Consultant': <TechConsultant />,
 };
 
 const MyProjects = () => {
-  const [selectedProject, setSelectedProject] = useState('Campus Emergency Response System');
+  const [selectedProject, setSelectedProject] = useState('CERS');
 
   const [isMobile, setIsMobile] = useState(() => window.matchMedia("(max-width: 768px)").matches);
 
@@ -141,7 +120,7 @@ const MyProjects = () => {
         </div>
 
         <div className="projects-right">
-          {!isMobile ? <p className="projects-count">40+ <br /> GitHub Repos</p> : <p className="projects-count">40+ Repos</p>}
+          {!isMobile ? <p className="projects-count">8+ <br /> Projects</p> : <p className="projects-count">8+ Projects</p>}
           <a href="https://github.com/LeonardOgendo/" target="_blank" rel="noopener noreferrer" className="github-button">
             <FaGithub /> See GitHub
           </a>

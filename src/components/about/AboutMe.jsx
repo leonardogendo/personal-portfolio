@@ -11,17 +11,17 @@ const AboutMe = () => {
     const aboutMe = {
         // PartA: min 20 words - max 22 words
         partA: 
-            `I build and secure modern applications, APIs, and delivery pipelines to help
-            organizations protect their systems from real-world cyber threats.`
+            `I build secure applications, APIs, and software systems while helping organizations reduce risk 
+            through application security and security engineering.`
         ,
         partB: 
-            `With practical experience in Secure Software Engineering, DevSecOps Integration, and automated
-            security testing, I:`
+            `With practical experience in Secure Software Engineering, Application Security, and intelligent
+            security automation, I:`
         ,
         bulletOne: `Design secure systems from development through to deployment`,
-        bulletTwo: `Embed security into CI/CD pipelines with DevSecOps automation`,
-        bulletThree: `Validate vulnerabilties(Web & API) through both manual and automated testing`,
-        bulletFour: `Improve monitoring and detection using SIEM insights and security workflows`
+        bulletTwo: `Embed security into CI/CD pipelines through automation`,
+        bulletThree: `Validate web and API vulnerabilities through manual and automated security testing`,
+        bulletFour: `Improve detection and response capabilities through security monitoring and automation`
     };
 
     const [isMobile, setIsMobile] = useState(() => window.matchMedia("(max-width: 768px)").matches);

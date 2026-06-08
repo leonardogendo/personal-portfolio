@@ -13,9 +13,9 @@ const experienceData = [
         dateLabel: 'February 2022 – August 2025',
         activities: [
             {
-                title: 'Delivered Full-Stack Web Solutions using Django & MERN',
+                title: 'Delivered Full-Stack Web Solutions to Clients',
                 description:
-                    'Developed and deployed secure, API-driven applications using Django REST Framework and Express.js. Built dynamic frontends with React, integrating features like authentication, dashboards, and admin panels.',
+                    'Developed and deployed secure, API-driven applications using Django. Built dynamic frontends with React & Angular, integrating features like authentication, dashboards, and admin panels.',
             },
             {
                 title: 'Implemented Scalable Architectures with Security in Focus',
@@ -31,72 +31,21 @@ const experienceData = [
     },
 
     {
-        jobTitle: 'Cybersecurity Researcher',
+        jobTitle: 'Security Researcher',
         company: 'BugCrowd',
         location: 'Remote',
-        startDate: '2024-05-11',
-        dateLabel: 'May 2024 – Present',
+        startDate: '2025-08-11',
+        dateLabel: 'August 2025 – Present',
         activities: [
             {
-                title: 'Enumerated Assets, Services, and Technology Stacks Across Bug Bounty Scopes',
+                title: 'Analyzed Web Applications and APIs to Map Attack Surfaces and Identify Entry Points',
                 description:
-                    'Enumerated subdomains, exposed services, and underlying technology stacks on public bug bounty targets using Amass, Subfinder, Nmap, Nuclei, Wappalyzer, and custom Bash automation.',
+                    'Applied industry security frameworks to assess web applications and APIs, mapping attack surfaces and identifying potential entry points through structured analysis and threat modeling.',
             },
             {
-                title: 'Identified Potential Entry Points via Passive and Active Reconnaissance',
+                title: 'Documented and Reported Security Findings Through Structured Disclosure Programs',
                 description:
-                    'Discovered potential attack entry points through passive reconnaissance techniques using Burp Suite, input field mapping, URL fuzzing, and banner grabbing to assess application exposure.',
-            },
-        ],
-    },
-   
-    {
-        jobTitle: 'Capture The Flag (CTF) Participant',
-        company: 'TryHackMe',
-        location: 'Remote',
-        startDate: '2023-08-01',
-        dateLabel: 'August 2023 – Present',
-        activities: [
-            {
-                title: 'Simulated Attacker Behavior in CTF Challenges',
-                description:
-                    'Solved real-world scenarios on TryHackMe and VulnHub, practicing enumeration, exploitation, and post-exploitation techniques across diverse targets.',
-            },
-            {
-                title: 'Built Local Labs to Reinforce Exploit Chains',
-                description:
-                    'Set up personal VMs and network environments to practice custom exploits and chained attack paths using Kali Linux and Metasploit.',
-            },
-            {
-                title: 'Sharpened Cybersecurity Thinking Through Gamified Labs',
-                description:
-                    'Developed attacker mindset by solving practical labs with real tools like Nmap, Hydra, Gobuster, and Netcat.',
-            },
-        ],
-    },
-
-    {
-        jobTitle: 'Software Developer',
-        company: 'Masinde Muliro University of Science and Technology',
-        location: 'Kakamega County, Kenya · On-site',
-        startDate: '2023-10-01',
-        endDate: '2025-05-20',
-        dateLabel: 'October 2023 – May 2025',
-        activities: [
-            {
-                title: 'Led Academic Projects Demonstrating Full Stack Web Development',
-                description:
-                    'Built Africana E-commerce System and Campus Emergency Response System from scratch, applying both frontend and backend technologies to solve real campus use cases.',
-            },
-            {
-                title: 'Developed Secure Frontends & RESTful Backends',
-                description:
-                    'Used React for building responsive UIs and Django/Express for API development. Integrated authentication, role-based features, and dynamic data displays.',
-            },
-            {
-                title: 'Applied Best Practices in Git, Deployment, and Database Design',
-                description:
-                    'Practiced version control with GitHub and deployed projects using platforms like Netlify and Heroku. Designed PostgreSQL and MongoDB schemas to handle structured and unstructured data.',
+                    'Compiled and submitted actionable vulnerability reports via responsible disclosure and bug bounty programs, enabling organizations to validate, prioritize, and remediate security risks effectively.',
             },
         ],
     },

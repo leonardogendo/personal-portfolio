@@ -6,7 +6,7 @@ import { FiExternalLink } from 'react-icons/fi';
 const Cers = () => {
     return (
         <div className="fproject-component">
-            <h2 className="fproject-title">Campus Emergency Response System (CERS)</h2>
+            <h2 className="fproject-title">CERS</h2>
 
             <div className="project-brief-container">
                 <p className="project-brief">A platform that connects students with campus emergency responders <br /> in real-time.</p>
@@ -25,14 +25,14 @@ const Cers = () => {
             </div>
 
             <div className="view-project">
-                <a href='https://github.com/LeonardOgendo/Campus-Emergency-Response-System' target='_blank' rel="noopener noreferrer" ><span className='view-code'><FaGithub className="view-icon" /> View Code</span></a>
+                <a href='https://github.com/LeonardOgendo/CERS' target='_blank' rel="noopener noreferrer" ><span className='view-code'><FaGithub className="view-icon" /> View Code</span></a>
                 <span style={{ cursor: 'not-allowed' }} className='view-demo'><FiExternalLink className="view-icon" /> Live Demo</span>
             </div>
 
             <div className="project-section">
                 <h3><FaProjectDiagram className="overview-icon" /> Overview</h3>
                 <p>
-                    The Campus Emergency Response System (CERS) is a real-time platform designed to streamline emergency reporting within universities. It allows students & staff to instantly alert campus emergency team, track response times, and access location-based services for faster intervention. The system features a secure backend, user roles, real-time alert broadcasting, and scalable architecture to accommodate large student populations.
+                    CERS is a real-time platform designed to streamline emergency reporting within universities. It allows students & staff to instantly alert campus emergency team, track response times, and access location-based services for faster intervention. The system features a secure backend, user roles, real-time alert broadcasting, and scalable architecture to accommodate large student populations.
                 </p>
             </div>
 

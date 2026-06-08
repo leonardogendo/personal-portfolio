@@ -12,10 +12,10 @@ import backgroundImage from '../../assets/backgrounds/box-rule3-bg.jpg';
 function Navigation(){
     const texts = [
         "I Am Leonard Ogendo",
-        'I Am a Secure Software & Cybersecurity Engineer',
-        'I Design & Build Secure Systems',
-        'I Test & Validate Vulnerabilities',
-        'I Improve Security Monitoring & Detection'
+        'Secure Software & Cybersecurity Engineer',
+        'I Build & Secure Modern Applications',
+        'Application Security • DevSecOps • Security Testing',
+        'I Help Teams Ship Secure Software'
     ];
 
     // CURRENT ROLE
@@ -207,7 +207,7 @@ function Navigation(){
                         <p className="c-at">{currentRole}</p>
                     </div>
 
-                    <p className="zing">Helping Organizations Build Secure Systems and Protect Digital Assets & Critical Infrastructure</p>
+                    <p className="zing">Helping Organizations Build Secure Systems, Protect Digital Assets & Critical Infrastructure</p>
 
                     <div className="hero-btns">
                         <a href="#projects"><button className="view-btn"><FaCode className="btn-icon" /> View My Work</button></a>
@@ -244,23 +244,19 @@ function Navigation(){
                         <div className="expertise">
                             <div className="hv-block">
                                 <FaSoftEng className="exp-ico" size={18} />
-                                <span>Software Engineering</span>
+                                <span>Secure Software Engineering</span>
                             </div>
                             <div className="hv-block">
                                 <FaShieldAlt className="exp-ico" size={18} />
-                                <span>Web & API Security</span>
+                                <span>Application Security</span>
                             </div>
                             <div className="hv-block">
                                 <FaUserShield className="exp-ico" size={18} />
-                                <span>Penetration Testing</span>
+                                <span>Security Testing</span>
                             </div>
                             <div className="hv-block">
                                 <FaTools className="exp-ico" size={18} />
-                                <span>Security Operations</span>
-                            </div>
-                            <div className="hv-block">
-                                <FaTerminal className="exp-ico" size={18} />
-                                <span>DevSecOps</span>
+                                <span>Security Automation</span>
                             </div>
                         </div>
                     ) : (
@@ -272,11 +268,11 @@ function Navigation(){
                                 </div>
                                 <div className="hv-block">
                                     <FaUserShield className="exp-ico" size={18} />
-                                    <span>Web & API Security</span>
+                                    <span>Application Security</span>
                                 </div>
                                 <div className="hv-block">
                                     <FaTools className="exp-ico" size={18} />
-                                    <span>SOC / Blue Teaming</span>
+                                    <span>Security Testing</span>
                                 </div>
                             
                             </div>

@@ -33,7 +33,7 @@ const Experiences = () => {
                     <div onClick={() => handleToggleClick("previous-experiences")} className="experience-toggle" style={ activeToggle === "previous-experiences" ? { backgroundColor: "#2F242C"} : {backgroundColor: "#2a2a2a"} }>Previous Experiences</div>
                 </div>
                 
-                <div className="experiences-count"><FaStar className="exp-icon" />6 + Experiences</div>
+                <div className="experiences-count"><FaStar className="exp-icon" />4 + Experiences</div>
         
             </div>
 
