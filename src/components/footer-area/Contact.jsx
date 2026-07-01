@@ -48,7 +48,7 @@ const Contact = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/LeonardOgendo/"
+              href="https://github.com/leonardogendo/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -74,14 +74,14 @@ const Contact = () => {
 
           <div className="network-card">
             <a
-              href="https://github.com/LeonardOgendo"
+              href="https://github.com/leonardogendo"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="network-icon" />
               <span className="network-label">GitHub</span>
             </a>
-            <p className="network-stats">40+ Public Repositories</p>
+            <p className="network-stats">8 + Projects</p>
           </div>
 
           <div className="network-card">

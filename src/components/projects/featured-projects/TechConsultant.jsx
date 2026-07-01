@@ -23,7 +23,7 @@ const TechConsultant = () => {
             </div>
 
              <div className="view-project">
-                <a href="https://github.com/LeonardOgendo/Tech-Consultancy-Website" target="_blank" rel="noopener noreferrer" ><span className='view-code'><FaGithub className="view-icon" /> View Code</span>  </a>
+                <a href="https://github.com/leonardogendo/Tech-Consultancy-Website" target="_blank" rel="noopener noreferrer" ><span className='view-code'><FaGithub className="view-icon" /> View Code</span>  </a>
                 <a href="https://amden.co.ke/" target="_blank" rel="noopener noreferrer" ><span className='view-demo'><FiExternalLink className="view-icon" /> Live Demo</span></a>
             </div>
 

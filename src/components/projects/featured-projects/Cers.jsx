@@ -25,7 +25,7 @@ const Cers = () => {
             </div>
 
             <div className="view-project">
-                <a href='https://github.com/LeonardOgendo/CERS' target='_blank' rel="noopener noreferrer" ><span className='view-code'><FaGithub className="view-icon" /> View Code</span></a>
+                <a href='https://github.com/leonardogendo/CERS' target='_blank' rel="noopener noreferrer" ><span className='view-code'><FaGithub className="view-icon" /> View Code</span></a>
                 <span style={{ cursor: 'not-allowed' }} className='view-demo'><FiExternalLink className="view-icon" /> Live Demo</span>
             </div>
 
