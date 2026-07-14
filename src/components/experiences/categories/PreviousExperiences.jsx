@@ -32,7 +32,7 @@ const experienceData = [
 
     {
         jobTitle: 'Security Researcher',
-        company: 'BugCrowd',
+        company: 'Self Employed',
         location: 'Remote',
         startDate: '2025-08-11',
         dateLabel: 'August 2025 – Present',
